@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://ezenkin.github.io/</loc>
+    <lastmod>2020-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezenkin.github.io/posts/how-to-reset-master-to-origin/</loc>
+    <lastmod>2020-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezenkin.github.io/posts/</loc>
+    <lastmod>2020-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezenkin.github.io/posts/reset-mysql-root-password/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezenkin.github.io/posts/mysql-plugin-for-qt/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezenkin.github.io/posts/add-qt-version-to-qtchooser-in-ubuntu/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezenkin.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://ezenkin.github.io/tags/</loc>
+  </url>
+  
+</urlset>

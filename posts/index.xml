@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on EzBlog</title>
+    <link>http://ezenkin.github.io/posts/</link>
+    <description>Recent content in Posts on EzBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://ezenkin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to reset master to origin/master</title>
+      <link>http://ezenkin.github.io/posts/how-to-reset-master-to-origin/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezenkin.github.io/posts/how-to-reset-master-to-origin/</guid>
+      <description>git checkout -B master origin/master </description>
+    </item>
+    
+    <item>
+      <title>Reset mysql root password</title>
+      <link>http://ezenkin.github.io/posts/reset-mysql-root-password/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezenkin.github.io/posts/reset-mysql-root-password/</guid>
+      <description>Stop mysql server:
+sudo systemctl stop mysql Create a /var/run/mysqld directory
+sudo mkdir -p /var/run/mysqld sudo chown mysql:mysql /var/run/mysqld Start mysql server in the safe mode:
+sudo mysqld_safe --skip-grant-tables &amp;amp; Run mysql client as root without password:
+mysql -u root Execute command:
+mysql&amp;gt; UPDATE mysql.user SET authentication_string = PASSWORD(&#39;new_password&#39;) WHERE User = &#39;root&#39; AND Host = &#39;localhost&#39;; Exit the mysql client:
+mysql&amp;gt; exit Terminate current mysqld process:
+sudo pkill mysqld Start mysqld in normal mode:</description>
+    </item>
+    
+    <item>
+      <title>Mysql plugin for Qt under Ubuntu</title>
+      <link>http://ezenkin.github.io/posts/mysql-plugin-for-qt/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezenkin.github.io/posts/mysql-plugin-for-qt/</guid>
+      <description>Change directory with plugins source code
+cd /opt/Qt/5.12.8/Src/qtbase/src/plugins/sqldrivers Run qmake with path to mysql headers
+qmake -- MYSQL_PREFIX=/usr Run make to build mysql plugin
+sudo make sub-mysql Move to the directory where plugin will be located
+cd /opt/Qt/5.12.8/gcc_64/plugins/sqldrivers Copy plugin to that directory
+cp /opt/Qt/5.12.8/Src/qtbase/src/plugins/sqldrivers/plugins/sqldrivers/libqsqlmysql.so . </description>
+    </item>
+    
+    <item>
+      <title>How to add custom qt version to qtchooser in Ubuntu</title>
+      <link>http://ezenkin.github.io/posts/add-qt-version-to-qtchooser-in-ubuntu/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezenkin.github.io/posts/add-qt-version-to-qtchooser-in-ubuntu/</guid>
+      <description> Create new folder if it doesn’t exist:  mkdir ~/.config/qtchooser  Change directory:  cd ~/.config/qtchooser  Create new file:  qt_version.conf  Add to the created file following lines:  /path/to/qt/bin /path/to/qt/lib  Create symbolic link to the created file:  ln -s qt_version.conf default.conf </description>
+    </item>
+    
+  </channel>
+</rss>
