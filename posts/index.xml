@@ -6,11 +6,11 @@
     <description>Recent content in Posts on EzBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ezenkin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ezenkin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to reset master to origin/master</title>
       <link>https://ezenkin.github.io/posts/how-to-reset-master-to-origin/</link>
-      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ezenkin.github.io/posts/how-to-reset-master-to-origin/</guid>
       <description>git checkout -B master origin/master </description>
